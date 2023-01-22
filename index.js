@@ -34,7 +34,7 @@ app.post('/light',(req,res)=>{
     res.status(200).send('data received....')
 })
 
-app.listen('onurled.vercel.app',()=>{
+app.listen(7000,'onurled.vercel.app',()=>{
     console.log('listening on port 7000')
 })
 
